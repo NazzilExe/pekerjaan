@@ -1,0 +1,58 @@
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Poppins',sans-serif;background:#f9fafb;color:#333;line-height:1.6}
+
+/* HEADER */
+header{background:linear-gradient(135deg,#004d40,#2e8b57);color:#fff;text-align:center;padding:100px 20px;border-bottom-left-radius:60px;border-bottom-right-radius:60px;box-shadow:0 6px 20px rgba(0,0,0,.15)}
+header h1{font-size:3.5em;font-weight:700;letter-spacing:1.2px}
+header p{font-size:1.25em;opacity:.9;margin-top:10px}
+
+/* NAV */
+nav{background:#fff;text-align:center;padding:15px;position:sticky;top:0;z-index:10;box-shadow:0 3px 10px rgba(0,0,0,.1)}
+nav a{text-decoration:none;color:#00695c;font-weight:600;margin:0 20px;padding:8px 16px;border-radius:25px;transition:.3s}
+nav a:hover{background:#00695c;color:#fff}
+
+/* SECTION */
+section{padding:100px 20px;text-align:center}
+h2{color:#00695c;margin-bottom:30px}
+
+/* ABOUT */
+.about{background:#fff}
+.about p{max-width:850px;margin:0 auto;font-size:1.1em;color:#555}
+
+/* VISI MISI */
+.vision-mission{background:#f4f7f6}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:40px;max-width:1000px;margin:0 auto}
+.card{background:#fff;border-radius:25px;padding:30px 25px;box-shadow:0 5px 15px rgba(0,0,0,.1)}
+.card h3{color:#2e8b57;margin-bottom:15px}
+.card p{color:#555;line-height:1.7}
+
+/* PRODUK */
+.products{background:#f9fafb}
+.product-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:30px;max-width:1100px;margin:0 auto}
+.product-card{background:#fff;border-radius:30px;padding:35px 25px;box-shadow:0 5px 20px rgba(0,0,0,.1);transition:.3s}
+.product-card:hover{transform:translateY(-8px);box-shadow:0 8px 25px rgba(0,0,0,.15)}
+.product-card h3{color:#2e8b57;margin-bottom:10px}
+.btn{display:inline-block;background:#00695c;color:#fff;text-decoration:none;padding:12px 28px;border-radius:30px;font-weight:600;transition:.3s}
+.btn:hover{background:#004d40}
+
+/* TESTIMONI */
+.testimoni{background:#fff}
+.testimoni-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:30px;max-width:1000px;margin:0 auto}
+.testimoni-card{background:#f4f7f6;border-radius:20px;padding:25px 20px;box-shadow:0 4px 12px rgba(0,0,0,.08);font-style:italic}
+.testimoni-card h4{color:#2e8b57;font-weight:600}
+
+/* KONTAK */
+.contact{background:linear-gradient(135deg,#004d40,#2e8b57);color:#f0fdf4;text-align:center;padding:90px 20px;border-top-left-radius:60px;border-top-right-radius:60px}
+.contact h2{font-size:2.5em;margin-bottom:25px;color:#e8f5e9}
+.contact p{margin:8px 0;font-size:1.1em;color:#d0f0da}
+.contact .btn{background:#f0fdf4;color:#00695c;margin-top:25px;border:2px solid #f0fdf4;font-weight:700}
+.contact .btn:hover{background:#c8e6c9;color:#004d40;border-color:#c8e6c9}
+
+/* FOOTER */
+footer{background:#00332b;color:#c8e6c9;text-align:center;padding:20px;font-size:.95em;letter-spacing:.5px}
+
+/* RESPONSIVE */
+@media(max-width:600px){
+  header h1{font-size:2.4em}
+  h2{font-size:1.8em}
+}
